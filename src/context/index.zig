@@ -2,7 +2,6 @@ const std = @import("std");
 const net = std.net;
 const mem = std.mem;
 const Parsed = std.json.Parsed;
-const WriterHandler = *const fn ([]const u8) net.Stream.WriteError!usize;
 const helpers = @import("../helpers/index.zig");
 
 pub const Self = @This();

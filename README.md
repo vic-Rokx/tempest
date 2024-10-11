@@ -1,3 +1,4 @@
+![Logo](/logo.svg)
 ## Tempest
 
 High performance, extensible, minimalist Zig web framework.
